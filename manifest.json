@@ -22,4 +22,5 @@
         "images/*.png",
         "images/*.json"
     ]
+    "applications": { "gecko": { "id": "X@Y" } }
 }
