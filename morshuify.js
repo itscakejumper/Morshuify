@@ -2,12 +2,6 @@ const imagesPath = "images/";
 var useAlternativeImages
 var flipBlacklist // Stores flipBlackList.js
 var blacklistStatus
-var extensionName = chrome.runtime.getManifest().name;
-
-// Config
-var extensionIsDisabled = false
-var appearChance = 1.00//%
-var flipChance = 0.25//%
 
 // Apply the overlay
 function applyOverlay(thumbnailElement, overlayImageURL, flip = false) {
