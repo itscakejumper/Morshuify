@@ -5,17 +5,13 @@
     "icons": {
         "96": "icon.png"
     },
-    "description": "Modify YouTube thumbnails to include MrBeast",
-    "action": {
-        "default_popup": "settings.html"
-    },
-    "permissions": [
-        "storage"
+    "description": "Modify YouTube thumbnails to include Morshu",
+    "host_permissions": [
+            "https://www.youtube.com/*"
     ],
-    "host_permissions": ["*://*.youtube.com/*"],
     "content_scripts": [{
-        "matches": ["*://*.youtube.com/*"],
-        "js": ["mrbeastify.js"],
+        "matches": ["https://www.youtube.com/*"],
+        "js": ["Morshuify.js"],
         "run_at": "document_idle"
     }],
     "web_accessible_resources": [{
