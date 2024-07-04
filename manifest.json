@@ -10,11 +10,10 @@
     
     },
     "permissions": [
-        "storage",
-        "*://*.youtube.com/*"
+        "https://www.youtube.com/*"
     ],
     "content_scripts": [{
-        "matches": ["*://*.youtube.com/*"],
+        "matches": ["https://www.youtube.com/*"],
         "js": ["morshuify.js"],
         "run_at": "document_idle"
     }],
