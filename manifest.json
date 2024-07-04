@@ -7,7 +7,7 @@
     },
     "description": "Modify YouTube thumbnails to include Morshu",
     "browser_action": {
-        "default_popup": "settings.html"
+    
     },
     "permissions": [
         "storage",
